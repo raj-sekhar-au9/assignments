@@ -1,0 +1,26 @@
+1. Can you tell about some of the commonly used UNIX commands on a daily life?
+ans cd - :- (to go back to previous directory which u are working in)
+*rm :-(to remove a file in a directory)
+*rm -r :-(to remove a directory)
+*ls -a :-(shows the list of hidden files along with normal files)
+*ls -la :-(shows the list of all files even hidden along with more file information )
+*mkdir :-( to create a new directory)
+*cp :-( to copy files from one location to another)
+*cp -r :-(to copy a directory from one location to another)
+*mv :-(to move a file from one location to another)
+*mv -r :-(to move a directory from one location to another)
+*rm -rf :-(to forcefully remove a directory)
+2. How can you create a text file using the command line?
+ans Create a folder called PythonPrograms on your C:\ drive. You will be storing all your Python programs in this folder.
+Go to Start and either type Run in the Start Search box at the bootom or click on Run.
+Type in notepad in the field called Open.
+In Notepad type in the following program exactly as written:
+# File: Hello.py
+print "Hello World!"
+Go to File and click on Save as.
+In the field Save in browse for the C: drive and then select the folder PythonPrograms.
+For the field File name remove everything that is there and type in Hello.py.
+In the field Save as type select All Files
+Click on Save. You have just created your first Python program 
+3. What is the command you will use to delete a directory and its content?
+ans rmdir command
