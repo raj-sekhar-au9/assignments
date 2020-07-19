@@ -4,4 +4,4 @@ if __name__=="__main__":
     arr = list(set(list(arr)))
     ar = len(arr)
     arr = sorted(arr)
-    print(arr[ar-2])
+    print(arr[ar-1])
