@@ -1,0 +1,23 @@
+input_number_1 = int(input("Type first number: "))
+input_number_2 = int(input("Type second number: "))
+operator = input("Type operator you need to use: ")
+
+if operator == "+":
+    print("You chose additon operator")
+    print(f"Your solution is : {input_number_1 + input_number_2}")
+
+elif operator == "-":
+    print("You chose subtraction operator")
+    print(f"Your solution is : {input_number_1 - input_number_2}")
+
+elif operator == "*":
+    print("You chose multiplication operator")
+    print(f"Your solution is : {input_number_1 * input_number_2}") 
+
+elif operator == "/":
+    print("You chose division operator")
+    print(f"Your solution is : {input_number_1/input_number_2}")
+
+
+else:
+    print("Invalid Entry")
